@@ -8,23 +8,32 @@ Additionally, the project includes data cleaning, model evaluation, and visualiz
 
 ---
 
-## 📂 Project Structure
+## ✨ Features
 
-Language-Detector-Model/
-│
-├── Dataset/
-│ └── sentences_full_language.csv # Main dataset
-│
-├── Model/
-│ └── model.pkl # Saved trained model
-│
-├── Cleaner_DS.py # Dataset loading & cleaning logic
-├── Train_Model.py # Model training and evaluation
-├── Test_Model.py # Model testing with user input
-├── Confusion_Matrix.png # Confusion matrix heatmap
-├── True_Positives_Line_Plot.png # True positives per class (line chart)
-├── True_Positives_Histogram.png # True positives per class (histogram)
-└── README.md # Project documentation
+🚀 **Fast Language Detection**  
+Detects the language of any given text within milliseconds using a trained ML model.
+
+🧹 **Automated Data Cleaning**  
+Removes duplicate or over-represented text entries to improve model accuracy.
+
+📊 **Model Evaluation & Reporting**  
+Generates accuracy score, classification report, and detailed confusion matrix.
+
+🎨 **Beautiful Visualizations**  
+Creates heatmaps, histograms, and line plots to visualize model performance.
+
+💾 **Model Persistence**  
+Saves the trained model as a `.pkl` file for easy re-use without retraining.
+
+🖥 **Interactive Testing**  
+Accepts user input directly from the terminal to test predictions instantly.
+
+🛠 **Customizable Training Pipeline**  
+Easily adjust vectorization method, features, and classifier for experimentation.
+
+📁 **Multi-Language Dataset Support**  
+Handles large multilingual datasets with millions of entries efficiently.
+
 
 ---
 
