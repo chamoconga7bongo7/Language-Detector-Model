@@ -79,23 +79,10 @@ Evaluation Metrics: Accuracy, classification report, confusion matrix
    git clone https://github.com/AUX-441/Language-Detector-Model.git
    cd Language-Detector-Model
 
----
-
-## 🚀 Usage
-
- **Clean and Prepare Dataset**
-   ```bash
    python Test_Model.py
 
-
----
-
-## 🚀 Run the Training Script
-
-To train the model, run the following command:
-
-```bash
-python Train_Model.py
+Enter Your Language here (type 'exist' to quit): Bonjour
+Predicted Language : French
 
 
 ---
