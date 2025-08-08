@@ -74,7 +74,36 @@ Evaluation Metrics: Accuracy, classification report, confusion matrix
 
 ## 📦 Installation
 
-1. **Clone the repository**
+**Clone the repository**
    ```bash
    git clone https://github.com/AUX-441/Language-Detector-Model.git
    cd Language-Detector-Model
+
+---
+
+## 🚀 Usage
+
+ **Clean and Prepare Dataset**
+   ```bash
+   python Test_Model.py
+
+
+---
+
+## Example Test 
+
+**Example interaction:**
+
+   ```bash
+    Enter Your Language here (type 'exist' to quit): Bonjour
+    Predicted Language : French
+
+   ```bash
+
+    Enter Your Language here (type 'exist' to quit): Hola
+    Predicted Language : Spanish
+
+
+---
+
+
