@@ -90,18 +90,12 @@ Evaluation Metrics: Accuracy, classification report, confusion matrix
 
 ---
 
-## Example Test 
+## 🚀 Run the Training Script
 
-**Example interaction:**
+To train the model, run the following command:
 
-   ```bash
-    Enter Your Language here (type 'exist' to quit): Bonjour
-    Predicted Language : French
-
-   ```bash
-
-    Enter Your Language here (type 'exist' to quit): Hola
-    Predicted Language : Spanish
+```bash
+python Train_Model.py
 
 
 ---
