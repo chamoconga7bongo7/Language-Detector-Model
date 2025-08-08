@@ -61,6 +61,17 @@ Handles large multilingual datasets with millions of entries efficiently.
 
 ---
 
+## 🧠 Model Details
+Vectorizer: TfidfVectorizer(analyzer='char', max_features=2500)
+
+Classifier: LogisticRegression(max_iter=2500, solver='saga')
+
+Split Ratio: 70% train / 30% test
+
+Evaluation Metrics: Accuracy, classification report, confusion matrix
+
+---
+
 ## 📦 Installation
 
 1. **Clone the repository**
